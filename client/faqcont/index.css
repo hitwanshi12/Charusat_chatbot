@@ -1,0 +1,141 @@
+.navbar {
+  background-color: #919191; /* Optional background color */
+  border-bottom: 1px solid #ddd;
+}
+
+.container
+{
+  background-color: rgb(228, 243, 255);
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+}
+
+.logo
+{
+  margin-top: 5px;
+}
+.ant-layout
+{
+  background-color: rgb(255, 255, 255);
+}
+
+.ant-layout-sider-children
+{
+  border-right: 1px solid #ddd;
+  background-color: rgb(43, 67, 128);
+}
+
+
+.ant-menu
+{
+  background-color: rgb(43, 67, 128);
+}
+
+.input-container
+{
+  position: absolute;
+  bottom: 70px;
+  width: 60%;
+  left:26%;
+}
+
+.ant-input
+{
+  padding: 10px;
+}
+.content
+{
+  font-size: 18px;
+    color: rgb(159, 159, 159);
+    text-align: left;
+    padding-left: 30px;
+}
+.title
+{
+  font-size: 42px;
+  font-weight: 700;
+  color: rgb(43, 67, 128);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.user
+{
+  background-color: white;
+  /* text-align: end; */
+  text-align: initial;
+  padding: 10px;
+  display: block; /* Make the container an inline block element */
+  width: max-content;
+  border-radius: 10px;
+
+  font-size: 16px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.bot
+{
+  background-color: rgb(43, 67, 128);
+  /* text-align: end; */
+  text-align: initial;
+  padding: 10px;
+  display: block; /* Make the container an inline block element */
+  width: max-content;
+  margin-right: 70px;
+  border-radius: 10px;
+  margin-left: 70px;
+  font-size: 16px;
+  color:white;
+}
+
+.userLogo
+{
+  display: block;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.msg
+{
+  display: flex;
+
+}
+
+.chat-messages
+{
+  margin-top: 20px;
+  max-height: 350px;
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.clearChat
+{
+  color: white;
+  font-size: inherit;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-left: 10px;
+  width: 80%;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: rgb(43, 67, 128);
+}
+
+.clearChat:hover
+{
+  background-color: white;
+  color:rgb(43, 67, 128) ;
+}
